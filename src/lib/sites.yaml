@@ -1,0 +1,23 @@
+- title: 选课（本科生）
+  img_url: https://img.haobit.top/portal/xk.png
+  url:
+    human: xk/xs
+    campus: http://xk.bit.edu.cn/xsxkapp/sys/xsxkapp/*default/index.do
+    external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc0f9e2e2426557a1dc7af96/xsxkapp/sys/xsxkapp/*default/index.do
+- title: 选课（研究生）
+  description: 珠海另有站点
+  img_url: https://img.haobit.top/portal/xk.png
+  url:
+    human: xk/yjs
+    campus: http://xk.bit.edu.cn/yjsxkapp/sys/xsxkappbit/index.html
+    external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc0f9e2e2426557a1dc7af96/yjsxkapp/sys/xsxkappbit/index.html
+- title: 选课（珠海研究生）
+  img_url: https://img.haobit.top/portal/xkzh.png
+  url:
+    campus: http://xkzh.bit.edu.cn/yjsxkapp/sys/xsxkappbit/index.html
+    external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc5b9469326144300d8db9d6562d/yjsxkapp/sys/xsxkappbit/index.html
+- title: 软件正版化
+  img_url: https://img.haobit.top/portal/ca.png
+  url:
+    campus: https://ca.bit.edu.cn
+    external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f3f60f9e2e2426557a1dc7af96/
