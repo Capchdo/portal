@@ -13,7 +13,7 @@
     <div class="grid grid-cols-3 gap-1 rounded-2xl bg-gray-100">
       {#each [[URL_Type.campus, '🏫校内'], [URL_Type.external, '👽WebVPN'], [URL_Type.library, '📚图书馆']] as [k, v]}
         <label class="rounded-2xl py-1 text-center hover:bg-gray-400 has-[:checked]:bg-gray-300">
-          <input type="radio" bind:group={url_type} value={k} class="appearance-none" />
+          <input type="radio" bind:group={url_type} value={k} class="w-0 appearance-none" />
           {v}
         </label>
       {/each}
