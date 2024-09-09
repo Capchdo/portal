@@ -336,6 +336,7 @@
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f1e542d22639695130079bab/search/
   - title: ASME
     url:
+      human: asmedigitalcollection
       campus: http://asmedigitalcollection.asme.org/
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f1e44c9923396f596a0985af97592f30e4bcbff6d40473825cb44cb8eceb/
   - title: EBSCO

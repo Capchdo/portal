@@ -60,7 +60,7 @@
             {/if}
           </div>
           <div class="mt-4">
-            <div class="flex flex-wrap justify-between">
+            <div class="flex flex-wrap justify-between gap-x-2">
               <h3 class="text-sm font-bold text-gray-700 group-hover:text-bit-light-green">
                 <a href={as_href(url, url_type)} target="_blank">
                   <span aria-hidden="true" class="absolute inset-0"></span>
