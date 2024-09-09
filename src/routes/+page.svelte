@@ -9,7 +9,7 @@
   <div class="flex">
     <h1 class="flex-1 text-2xl font-bold tracking-tight text-gray-900">Portal</h1>
     <a class="text-gray-900" href="https://webvpn.swo.moe" target="_blank"
-      >转换器
+      >链接转换器
       <!-- https://heroicons.com arrow-top-right-on-square -->
       <svg
         class="inline size-6 align-text-bottom"
