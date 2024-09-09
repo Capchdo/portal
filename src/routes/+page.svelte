@@ -43,7 +43,9 @@
   {#each Object.entries(sites) as [name, group]}
     <h2 class="mt-4 text-2xl font-bold text-gray-900">{name}</h2>
     <!-- Modified from https://tailwindui.com/components/ecommerce/components/product-lists -->
-    <ul class="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 lg:grid-cols-4 xl:gap-x-8">
+    <ul
+      class="mt-6 grid grid-cols-[repeat(auto-fill,minmax(8em,1fr))] gap-x-6 gap-y-10 lg:grid-cols-[repeat(auto-fill,minmax(12em,1fr))]"
+    >
       {#each group as { title, img_url, url, description }}
         <li class="group relative">
           <div
