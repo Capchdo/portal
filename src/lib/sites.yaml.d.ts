@@ -1,5 +1,7 @@
 import type { Site } from './site'
 
-declare const sites: Site[]
+declare const sites: {
+  [group: string]: Site[]
+}
 
 export default sites

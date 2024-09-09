@@ -24,7 +24,12 @@ export enum URL_Type {
 }
 
 export function humanize_url(url: SiteURL): string {
-  return url.human || new URL(url.campus).host.replace(/\.bit\.edu\.cn$/, '')
+  return (
+    url.human ||
+    new URL(url.campus).host
+      .replace(/\.(bit\.edu\.cn|net|com|cn|com\.cn|org)$/, '')
+      .replace(/^www\./, '')
+  )
 }
 
 export function as_href(url: SiteURL, url_type: URL_Type): string {

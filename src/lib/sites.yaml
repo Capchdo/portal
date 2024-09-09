@@ -1,23 +1,505 @@
-- title: 选课（本科生）
-  img_url: https://img.haobit.top/portal/xk.png
-  url:
-    human: xk/xs
-    campus: http://xk.bit.edu.cn/xsxkapp/sys/xsxkapp/*default/index.do
-    external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc0f9e2e2426557a1dc7af96/xsxkapp/sys/xsxkapp/*default/index.do
-- title: 选课（研究生）
-  description: 珠海另有站点
-  img_url: https://img.haobit.top/portal/xk.png
-  url:
-    human: xk/yjs
-    campus: http://xk.bit.edu.cn/yjsxkapp/sys/xsxkappbit/index.html
-    external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc0f9e2e2426557a1dc7af96/yjsxkapp/sys/xsxkappbit/index.html
-- title: 选课（珠海研究生）
-  img_url: https://img.haobit.top/portal/xkzh.png
-  url:
-    campus: http://xkzh.bit.edu.cn/yjsxkapp/sys/xsxkappbit/index.html
-    external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc5b9469326144300d8db9d6562d/yjsxkapp/sys/xsxkappbit/index.html
-- title: 软件正版化
-  img_url: https://img.haobit.top/portal/ca.png
-  url:
-    campus: https://ca.bit.edu.cn
-    external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f3f60f9e2e2426557a1dc7af96/
+测试:
+  - title: 选课（本科生）
+    img_url: https://img.haobit.top/portal/xk.png
+    url:
+      human: xk/xs
+      campus: http://xk.bit.edu.cn/xsxkapp/sys/xsxkapp/*default/index.do
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc0f9e2e2426557a1dc7af96/xsxkapp/sys/xsxkapp/*default/index.do
+  - title: 选课（研究生）
+    description: 珠海另有站点
+    img_url: https://img.haobit.top/portal/xk.png
+    url:
+      human: xk/yjs
+      campus: http://xk.bit.edu.cn/yjsxkapp/sys/xsxkappbit/index.html
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc0f9e2e2426557a1dc7af96/yjsxkapp/sys/xsxkappbit/index.html
+  - title: 选课（珠海研究生）
+    img_url: https://img.haobit.top/portal/xkzh.png
+    url:
+      campus: http://xkzh.bit.edu.cn/yjsxkapp/sys/xsxkappbit/index.html
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc5b9469326144300d8db9d6562d/yjsxkapp/sys/xsxkappbit/index.html
+  - title: 软件正版化
+    img_url: https://img.haobit.top/portal/ca.png
+    url:
+      campus: https://ca.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f3f60f9e2e2426557a1dc7af96/
+部门主页:
+  - title: 党政办公室
+    url:
+      campus: http://dzb.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f4ed43d225397c1e7b0c9ce29b5b/
+  - title: 党委组织部
+    url:
+      campus: http://zzb.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421eaed43d225397c1e7b0c9ce29b5b/
+  - title: 保密办公室
+    url:
+      campus: http://bmc.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f2fa42d225397c1e7b0c9ce29b5b/
+  - title: 人力资源部
+    url:
+      campus: https://renshichu.bit.edu.cn/
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e2f24f8f2f396b586b468ba58c1b263189bcb17f/
+  - title: 学生工作部
+    url:
+      campus: http://century.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f3f24f883222711e7c019de29d51367bb4d6/
+  - title: 教务部
+    url:
+      campus: https://jwb.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fae043d225397c1e7b0c9ce29b5b/
+  - title: 计划财务部
+    url:
+      campus: https://jhcwb.bit.edu.cn/
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421faff428b257e6a596a468ca88d1b203b/
+  - title: 科学技术研究院
+    url:
+      campus: http://kjc.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421fbfd42d225397c1e7b0c9ce29b5b/
+  - title: 资产与实验室管理处
+    url:
+      campus: http://zsc.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421eae442d225397c1e7b0c9ce29b5b/
+  - title: 档案馆
+    url:
+      campus: https://archives.bit.edu.cn/
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f1e542942e266d43300a80b8d6502720a10fd2/
+  - title: 技术转移中心
+    url:
+      campus: https://ttc.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e4e342d225397c1e7b0c9ce29b5b/
+公共服务:
+  - title: 本科生选课
+    url:
+      campus: http://xk.bit.edu.cn/xsxkapp/sys/xsxkapp/*default/index.do
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc0f9e2e2426557a1dc7af96/xsxkapp/sys/xsxkapp/*default/index.do
+  - title: 研究生选课
+    url:
+      campus: http://xk.bit.edu.cn/yjsxkapp/sys/xsxkappbit/index.html
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc0f9e2e2426557a1dc7af96/yjsxkapp/sys/xsxkappbit/index.html
+  - title: 珠海校区-研究生选课
+    url:
+      campus: http://xkzh.bit.edu.cn/yjsxkapp/sys/xsxkappbit/index.html
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc5b9469326144300d8db9d6562d/yjsxkapp/sys/xsxkappbit/index.html
+  - title: 软件正版化
+    url:
+      campus: https://ca.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f3f60f9e2e2426557a1dc7af96/
+  - title: 校园进出管控
+    url:
+      campus: http://202.204.81.40:8012/register/
+      external: https://webvpn.bit.edu.cn/http-8012/77726476706e69737468656265737421a2a713d275603c1e2659c7f8c8/register/
+  - title: 物理实验中心-选排课
+    url:
+      campus: http://10.133.22.200:7100
+      external: https://webvpn.bit.edu.cn/http-7100/77726476706e69737468656265737421a1a70fcd746326022c46dbfcc8/
+  - title: 图书馆-书目检索
+    url:
+      campus: https://libsearch.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fcfe438f22317a5376468ba58c1b26315c8872e0/
+  - title: 计算机实验教学中心考试
+    url:
+      campus: http://10.0.6.36
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc6966260328/
+  - title: 会议提案征集
+    url:
+      campus: http://tian.info.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e4fe40926939665671468ba58c1b2631050e1d0b/
+  - title: 校园网经费卡充值
+    url:
+      campus: http://nsc-mis.info.bit.edu.cn/
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421fee442d12a397b1e77068fa3d6572a217be837a1fb8336/
+  - title: 研究生院会议室预定
+    url:
+      campus: http://10.0.6.207:8138
+      external: https://webvpn.bit.edu.cn/http-8138/77726476706e69737468656265737421a1a70fcc696626022e5f/
+  - title: 教工公寓申请
+    url:
+      campus: http://10.0.9.54:3000/typeChoose
+      external: https://webvpn.bit.edu.cn/http-3000/77726476706e69737468656265737421a1a70fcc696926052a/typeChoose
+  - title: 学院绩效考核填报
+    url:
+      campus: https://kpi.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fbe748d225397c1e7b0c9ce29b5b/
+  - title: 接诉即办
+    url:
+      campus: http://10.0.8.81
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc696826082f/
+业务系统:
+  - title: 计划财务部-财务综合信息门户
+    url:
+      campus: https://fad.bit.edu.cn/WFManager/home2.jsp
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f6f645d225397c1e7b0c9ce29b5b/WFManager/home2.jsp
+  - title: 通元内容管理
+    url:
+      campus: http://cms.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f3fa52d225397c1e7b0c9ce29b5b/
+  - title: 大数据
+    url:
+      campus: http://bi.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f2fe0f9e2e2426557a1dc7af96/
+  - title: 本研一体化教育教学管理
+    url:
+      campus: https://pie.bit.edu.cn/
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e0fe44d225397c1e7b0c9ce29b5b/
+  - title: 组织部-班子调研测评
+    url:
+      campus: http://10.0.8.171:8080/rqkh
+      external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fcc696826012959/rqkh
+  - title: 组织部-干部试用期考核测评
+    url:
+      campus: http://10.0.8.171:8080/rqkh
+      external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fcc696826012959/rqkh
+  - title: 组织部-干部民主推荐
+    url:
+      campus: http://10.0.8.171:9090/tj
+      external: https://webvpn.bit.edu.cn/http-9090/77726476706e69737468656265737421a1a70fcc696826012959/tj
+  - title: 宣传部-媒资管理
+    url:
+      campus: http://10.0.7.128:8011/gallery
+      external: https://webvpn.bit.edu.cn/http-8011/77726476706e69737468656265737421a1a70fcc696726012c50/gallery
+  - title: 人力资源部-人事
+    url:
+      campus: http://rsms.bit.edu.cn/templates/attestation/sso/ssologon.jsp
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e2e44c8f69326144300d8db9d6562d/templates/attestation/sso/ssologon.jsp
+  - title: 国际交流合作处-引智工作
+    url:
+      campus: http://10.0.8.125
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc696826012c5d/
+  - title: 科研院-科研管理
+    url:
+      campus: https://kyxt.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fbee598869326144300d8db9d6562d/
+  - title: 科研院-专用项目科研管理
+    url:
+      campus: http://10.0.11.183
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc6961391e2f50da/
+  - title: 图书馆-学位论文管理
+    url:
+      campus: http://10.0.7.53:88/urmp/xwlwindex/index/indexsearch.do
+      external: https://webvpn.bit.edu.cn/http-88/77726476706e69737468656265737421a1a70fcc696726052d/urmp/xwlwindex/index/indexsearch.do
+  - title: 教务部-智慧教育
+    url:
+      campus: http://10.0.11.147
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc6961391e2f5cde/
+  - title: 教务部-本科毕业设计（论文）管理
+    url:
+      campus: https://co2.cnki.net/Login.html?cas=1&dp=bit
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f3f813d2243e635930068cb8/Login.html?cas=1&dp=bit
+  - title: 教务部-教学一体化
+    url:
+      campus: http://jwms.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421fae04c8f69326144300d8db9d6562d/
+  - title: 教务部-学生评教
+    url:
+      campus: http://pj.bit.edu.cn:8080/pjxt2.0
+      external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421e0fd0f9e2e2426557a1dc7af96/pjxt2.0
+  - title: 教务部-专业确认
+    url:
+      campus: http://zyqr.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421eaee508e69326144300d8db9d6562d/
+  - title: 教务部-本科生国际交流项目报名
+    url:
+      campus: http://jwcexstu.info.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421fae042993f237c45300187aa971b213cca858c40c4b08ef0/
+  - title: 教务部-学科竞赛
+    url:
+      campus: http://xkjs.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc4b8f69326144300d8db9d6562d/
+  - title: 教务部-辅修学位
+    url:
+      campus: http://sxw.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e3ef56d225397c1e7b0c9ce29b5b/
+  - title: 教务部-本科生可信电子成绩单申请
+    url:
+      campus: http://jwc.bit.edu.cn/cjd
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421fae042d225397c1e7b0c9ce29b5b/cjd
+  - title: 研究生院-研究生教育管理
+    url:
+      campus: https://grdms.bit.edu.cn/
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f7e54591347e6a596a468ca88d1b203b/
+  - title: 研究生院-研究生评教
+    url:
+      campus: http://pingjiao.bit.edu.cn/
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e0fe4f9b2d39695f300a80b8d6502720657b11/
+  - title: 研究生院-论文送审
+    url:
+      campus: http://pyxt.bit.edu.cn/
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e0ee598869326144300d8db9d6562d/
+  - title: 研究生院-研究生学术成果填报
+    url:
+      campus: https://tbs.bit.edu.cn/newservice/fe/taskCenter/matterApplication?app_id=183
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e4f552d225397c1e7b0c9ce29b5b/newservice/fe/taskCenter/matterApplication?app_id=183
+  - title: 研究生院-研究生国家奖学金申请
+    url:
+      campus: https://tbs.bit.edu.cn/newservice/fe/taskCenter/matterApplication?app_id=180
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e4f552d225397c1e7b0c9ce29b5b/newservice/fe/taskCenter/matterApplication?app_id=180
+  - title: 研究生院-研究生学业奖学金申请
+    url:
+      campus: https://tbs.bit.edu.cn/newservice/fe/taskCenter/matterApplication?app_id=181
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e4f552d225397c1e7b0c9ce29b5b/newservice/fe/taskCenter/matterApplication?app_id=181
+  - title: 研究生院-奖学金管理
+    url:
+      campus: https://tbs.bit.edu.cn/newservice/fe/microsystems/home
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e4f552d225397c1e7b0c9ce29b5b/newservice/fe/microsystems/home
+  - title: 学工部-校内办公
+    url:
+      campus: http://10.0.8.207
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc696826022e5f/
+  - title: 学工部-心理咨询
+    url:
+      campus: https://xinlizixun.bit.edu.cn/rolePage.html
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e8fe4f902e2a61486b06c7ae91416d306295336bf9/rolePage.html
+  - title: 学工部-心理教育信息化管理
+    url:
+      campus: http://10.0.8.157:82/Login.aspx
+      external: https://webvpn.bit.edu.cn/http-82/77726476706e69737468656265737421a1a70fcc696826012b5f/Login.aspx
+  - title: 学生服务中心-学生公寓管理
+    url:
+      campus: http://dorm.info.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f4f853916939665671468ba58c1b263145fd6255/
+  - title: 招生办-北理思源报名
+    url:
+      campus: http://siyuan.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e3fe5889263e2652771cc7a99c406d36b8/
+  - title: 本硕博一体化教学
+    url:
+      campus: http://jxzxehall.bit.edu.cn/new/index.html
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421faef5b842238695c72468ba58c1b26316e8e7f6f/new/index.html
+  - title: 学生校园活动审批
+    url:
+      campus: http://hdsp.info.bit.edu.cn/
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f8f3528c6939665671468ba58c1b263129bdf895/
+  - title: 教师论文认领
+    url:
+      campus: https://openir.bit.edu.cn/cgrl/searchList
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421ffe744922e222652771cc7a99c406d3639/cgrl/searchList
+  - title: 教考中心-电子化阅卷
+    url:
+      campus: https://10.3.0.224:2443
+      external: https://webvpn.bit.edu.cn/https-2443/77726476706e69737468656265737421a1a70fcf696026022c5c/
+  - title: 资实处-资产一本账管理
+    url:
+      campus: http://10.131.102.100/cas
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcd746126012e5ac7fdc805/cas
+  - title: 资实处-固定资产管理
+    url:
+      campus: http://10.0.8.170:8080/netcx/loginUser.do
+      external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fcc696826012958/netcx/loginUser.do
+  - title: 资实处-实验室监控
+    url:
+      campus: http://10.131.102.73:8080/modules.cas.securecas/login?url=/hik/cas
+      external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fcd746126012e5ac7fbcb/modules.cas.securecas/login?url=/hik/cas
+  - title: 资实处-实验室安全教育与考试
+    url:
+      campus: http://10.5.201.41/WebTrain/
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fc969623801305cd8/WebTrain/
+  - title: 资实处-实验室管理
+    url:
+      campus: http://10.5.201.61:8080/jxframe
+      external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fc969623801305ed8/jxframe
+  - title: 资实处-公房管理
+    url:
+      campus: http://10.0.8.170:8080/estate/loginUser.do
+      external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fcc696826012958/estate/loginUser.do
+  - title: 资实处-公房成本核算
+    url:
+      campus: http://10.5.201.61:8080/hsframe
+      external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fc969623801305ed8/hsframe
+  - title: 资实处-设备开放共享
+    url:
+      campus: http://sbgx.bit.edu.cn/
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e3f5468469326144300d8db9d6562d/
+  - title: 资实处-实验室安全检查
+    url:
+      campus: http://aqjc.bit.edu.cn/admin/#
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f1e64b9f69326144300d8db9d6562d/admin/
+  - title: 外国语学院-标注
+    url:
+      campus: http://10.180.237.212
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcd7f6026022d5fc7fec907/
+  - title: 生命学院-实验动物与医学伦理审查
+    url:
+      campus: http://10.0.7.139
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc696726012d51/
+图书馆常用数据库:
+  - title: 图书馆数据库列表
+    url:
+      campus: https://lib.bit.edu.cn/db/
+      external: https://webvpn.bit.edu.cnhttps://lib.bit.edu.cn/db/
+  - title: ACS
+    url:
+      campus: https://pubs.acs.org/
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e0e2438f69316b4330079bab/
+  - title: AIAA
+    url:
+      campus: https://arc.aiaa.org/search/
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f1e542d22639695130079bab/search/
+  - title: ASME
+    url:
+      campus: http://asmedigitalcollection.asme.org/
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f1e44c9923396f596a0985af97592f30e4bcbff6d40473825cb44cb8eceb/
+  - title: EBSCO
+    url:
+      campus: http://search.epnet.com/
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e3f2408e243826556e068cb8d6562c38/
+  - title: Ei
+    url:
+      campus: http://www.engineeringvillage.com/
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e7e056d2223e6f59700d8cbe915b24239d8e8349f501643293dc/
+  - title: IEL
+    url:
+      campus: https://ieeexplore.ieee.org/
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f9f244993f20645f6c0dc7a59d50267b1ab4a9/
+  - title: INSPEC
+    url:
+      campus: https://www.engineeringvillage.com/
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e7e056d2223e6f59700d8cbe915b24239d8e8349f501643293dc/
+  - title: IOP
+    url:
+      campus: https://iopscience.iop.org/
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f9f8518f24396d5e7d0dc7a597456d3a7479/
+  - title: Nature
+    url:
+      campus: http://www.nature.com/
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e7e056d229317c456c0dc7af9758/
+  - title: PQDD全文库
+    url:
+      campus: http://www.pqdtcn.com/
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e7e056d237216c447d06c7af9758/
+  - title: Science online
+    url:
+      campus: https://science.sciencemag.org/
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e3f4489929336d1e6d0b80a99656263895097d1bb221/
+  - title: SDOL
+    url:
+      campus: https://lib.bit.edu.cn/db/detail?id=236
+      external: https://webvpn.bit.edu.cnhttps://lib.bit.edu.cn/db/detail?id=236
+  - title: Springer Link
+    url:
+      campus: https://link.springer.com/
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fcfe4f976923784277068ea98a1b203a54/
+  - title: Wiley Online Library
+    url:
+      campus: https://onlinelibrary.wiley.com/
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fff94d95293564597c1a88be811b343cb55cc5e3193677/
+  - title: WOS检索总
+    url:
+      campus: https://www.webofscience.com/wos/alldb/basic-search
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e7e056d230356a5f781b8aa59d5b20301c1db852/wos/alldb/basic-search
+  - title: 中国知网
+    url:
+      campus: https://www.cnki.net/
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e7e056d2243e635930068cb8/
+  - title: 万方数据
+    url:
+      campus: http://g.wanfangdata.com.cn/
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f7b9569d2936695e790c88b8991b203a18454272/
+  - title: 中科院分区数据库
+    url:
+      campus: http://www.fenqubiao.com
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e7e056d2213566416b0a80ad971b203add/
+  - title: 德语语言学和文学研究参考书目数据库
+    url:
+      campus: http://www.bdsl-online.de
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e7e056d225347b5c330787a0915b267bdad3/
+  - title: 读秀数据库
+    url:
+      campus: http://www.duxiu.com
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e7e056d2232570596b468aa395/
+  - title: 中国共产党思想理论资源数据库
+    url:
+      campus: http://data.lilun.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f4f6559d693c615c6b06c7af96/
+  - title: NoteExpress文献管理软件
+    url:
+      campus: http://www.inoteexpress.com/support/cgi-bin/download_sch.cgi?code=BeiJingLiGong
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e7e056d22e3e67447b0d91bc8a50302627b666ae/support/cgi-bin/download_sch.cgi?code=BeiJingLiGong
+单位专用:
+  - title: 党政办-内部网站管理页面
+    url:
+      campus: http://10.0.6.132:8080/cms/login
+      external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fcc696626012d5a/cms/login
+  - title: 组织部
+    url:
+      campus: http://10.0.8.171:9080
+      external: https://webvpn.bit.edu.cn/http-9080/77726476706e69737468656265737421a1a70fcc696826012959/
+  - title: 人力资源部
+    url:
+      campus: http://10.108.5.39:5000
+      external: https://webvpn.bit.edu.cn/http-5000/77726476706e69737468656265737421a1a70fcd77682605305bd0/
+  - title: 机械与车辆学院-学科数据填报
+    url:
+      campus: http://10.0.9.43
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc696926042d/
+  - title: 信息与电子学院-实验室信息化
+    url:
+      campus: http://10.0.7.8/bit
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc69672608/bit
+  - title: ACM竞赛
+    url:
+      campus: http://acm.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f1f44cd225397c1e7b0c9ce29b5b/
+  - title: 管理学院-综合管理
+    url:
+      campus: http://10.0.2.212
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc696226022f5a/
+  - title: 医学技术学院-协同办公
+    url:
+      campus: http://10.0.8.233:8080
+      external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fcc696826022d5b/
+  - title: 学报-测试
+    url:
+      campus: http://10.0.7.77:80
+      external: https://webvpn.bit.edu.cn/http-80/77726476706e69737468656265737421a1a70fcc6967260729/
+  - title: 大学生创新创业训练计划管理
+    url:
+      campus: http://cxcy.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f3ef428569326144300d8db9d6562d/
+  - title: 数学与统计学院-OA办公
+    url:
+      campus: http://oamath.bit.edu.cn
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421fff64c9d33382652771cc7a99c406d363a/
+  - title: 数学与统计学院-数学实验中心
+    url:
+      campus: http://mec.bit.edu.cn/
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421fdf242d225397c1e7b0c9ce29b5b/
+  - title: 物理学院-虚拟仿真教学
+    url:
+      campus: http://10.133.22.200:7102
+      external: https://webvpn.bit.edu.cn/http-7102/77726476706e69737468656265737421a1a70fcd746326022c46dbfcc8/
+  - title: 生命学院
+    url:
+      campus: http://10.0.7.139
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc696726012d51/
+  - title: 物理学院
+    url:
+      campus: http://10.1.0.219:8888
+      external: https://webvpn.bit.edu.cn/http-8888/77726476706e69737468656265737421a1a70fcd696026022f51/
+  - title: 基金会测试
+    url:
+      campus: http://10.0.11.101
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc6961391e2f58d8/
+  - title: 资实处-实验室信息统计
+    url:
+      campus: http://10.5.0.23
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fc9696026022d/
+  - title: 徐特立学院-智慧云社区
+    url:
+      campus: https://10.0.7.113
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421a1a70fcc696726012f5b/
+  - title: 集成电路-电工电子实验
+    url:
+      campus: http://10.178.27.8
+      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcd706826022946d1/
+  - title: 研究生院-研招系统测试
+    url:
+      campus: https://10.0.6.243
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421a1a70fcc696626022a5b/
+  - title: 数学学院-Rstudio计算
+    url:
+      campus: http://10.180.249.172:8787
+      external: https://webvpn.bit.edu.cn/http-8787/77726476706e69737468656265737421a1a70fcd7f6026022a51c7fdcf07/
+  - title: 数学学院-Jupyter计算
+    url:
+      campus: http://10.180.249.172:8000
+      external: https://webvpn.bit.edu.cn/http-8000/77726476706e69737468656265737421a1a70fcd7f6026022a51c7fdcf07/
