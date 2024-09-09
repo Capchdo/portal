@@ -1,5 +1,5 @@
-import type { Site } from './site';
+import type { Site } from './site'
 
-declare const sites: Site[];
+declare const sites: Site[]
 
-export default sites;
+export default sites

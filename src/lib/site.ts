@@ -34,6 +34,9 @@ export function as_href(url: SiteURL, url_type: URL_Type): string {
     case URL_Type.external:
       return url.external
     case URL_Type.library:
-      return url.external.replace(new RegExp('^' + 'https://webvpn.bit.edu.cn'), 'https://nlibvpn.bit.edu.cn')
+      return url.external.replace(
+        new RegExp('^' + 'https://webvpn.bit.edu.cn'),
+        'https://nlibvpn.bit.edu.cn',
+      )
   }
 }

@@ -1,5 +1,5 @@
-import typography from '@tailwindcss/typography';
-import aspect_ratio from '@tailwindcss/aspect-ratio';
+import typography from '@tailwindcss/typography'
+import aspect_ratio from '@tailwindcss/aspect-ratio'
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -22,4 +22,4 @@ export default {
     aspectRatio: false,
   },
   plugins: [typography, aspect_ratio],
-};
+}
