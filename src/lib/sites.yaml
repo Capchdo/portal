@@ -1,80 +1,80 @@
 部门主页:
   - title: 党政办公室
-    img_url: https://img.haobit.top/portal/dzb.webp
+    img_url: https://img.haobit.eu.org/portal/dzb.webp
     url:
       campus: http://dzb.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f4ed43d225397c1e7b0c9ce29b5b/
   - title: 党委组织部
-    img_url: https://img.haobit.top/portal/zzb.webp
+    img_url: https://img.haobit.eu.org/portal/zzb.webp
     url:
       campus: http://zzb.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421eaed43d225397c1e7b0c9ce29b5b/
   - title: 保密办公室
-    img_url: https://img.haobit.top/portal/bmc.webp
+    img_url: https://img.haobit.eu.org/portal/bmc.webp
     url:
       campus: http://bmc.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f2fa42d225397c1e7b0c9ce29b5b/
   - title: 人力资源部
-    img_url: https://img.haobit.top/portal/renshichu.webp
+    img_url: https://img.haobit.eu.org/portal/renshichu.webp
     url:
       campus: https://renshichu.bit.edu.cn/
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e2f24f8f2f396b586b468ba58c1b263189bcb17f/
   - title: 学生工作部
-    img_url: https://img.haobit.top/portal/century.webp
+    img_url: https://img.haobit.eu.org/portal/century.webp
     url:
       campus: http://century.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f3f24f883222711e7c019de29d51367bb4d6/
   - title: 教务部
-    img_url: https://img.haobit.top/portal/jwb.webp
+    img_url: https://img.haobit.eu.org/portal/jwb.webp
     url:
       campus: https://jwb.bit.edu.cn
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fae043d225397c1e7b0c9ce29b5b/
   - title: 计划财务部
-    img_url: https://img.haobit.top/portal/jhcwb.webp
+    img_url: https://img.haobit.eu.org/portal/jhcwb.webp
     url:
       campus: https://jhcwb.bit.edu.cn/
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421faff428b257e6a596a468ca88d1b203b/
   - title: 科学技术研究院
-    img_url: https://img.haobit.top/portal/kjc.webp
+    img_url: https://img.haobit.eu.org/portal/kjc.webp
     url:
       campus: http://kjc.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421fbfd42d225397c1e7b0c9ce29b5b/
   - title: 资产与实验室管理处
-    img_url: https://img.haobit.top/portal/zsc.webp
+    img_url: https://img.haobit.eu.org/portal/zsc.webp
     url:
       campus: http://zsc.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421eae442d225397c1e7b0c9ce29b5b/
   - title: 档案馆
-    img_url: https://img.haobit.top/portal/archives.webp
+    img_url: https://img.haobit.eu.org/portal/archives.webp
     url:
       campus: https://archives.bit.edu.cn/
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f1e542942e266d43300a80b8d6502720a10fd2/
   - title: 技术转移中心
-    img_url: https://img.haobit.top/portal/ttc.webp
+    img_url: https://img.haobit.eu.org/portal/ttc.webp
     url:
       campus: https://ttc.bit.edu.cn
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e4e342d225397c1e7b0c9ce29b5b/
 公共服务:
   - title: 选课（本科生）
-    img_url: https://img.haobit.top/portal/xk.webp
+    img_url: https://img.haobit.eu.org/portal/xk.webp
     url:
       human: xk/xs
       campus: http://xk.bit.edu.cn/xsxkapp/sys/xsxkapp/*default/index.do
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc0f9e2e2426557a1dc7af96/xsxkapp/sys/xsxkapp/*default/index.do
   - title: 选课（研究生）
     description: 珠海另有站点
-    img_url: https://img.haobit.top/portal/xk.webp
+    img_url: https://img.haobit.eu.org/portal/xk.webp
     url:
       human: xk/yjs
       campus: http://xk.bit.edu.cn/yjsxkapp/sys/xsxkappbit/index.html
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc0f9e2e2426557a1dc7af96/yjsxkapp/sys/xsxkappbit/index.html
   - title: 选课（珠海研究生）
-    img_url: https://img.haobit.top/portal/xkzh.webp
+    img_url: https://img.haobit.eu.org/portal/xkzh.webp
     url:
       campus: http://xkzh.bit.edu.cn/yjsxkapp/sys/xsxkappbit/index.html
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc5b9469326144300d8db9d6562d/yjsxkapp/sys/xsxkappbit/index.html
   - title: 软件正版化
-    img_url: https://img.haobit.top/portal/ca.webp
+    img_url: https://img.haobit.eu.org/portal/ca.webp
     url:
       campus: https://ca.bit.edu.cn
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f3f60f9e2e2426557a1dc7af96/
@@ -99,6 +99,7 @@
       campus: http://tian.info.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e4fe40926939665671468ba58c1b2631050e1d0b/
   - title: 校园网经费卡充值
+    img_url: https://img.haobit.eu.org/portal/nsc-mis-info.webp
     url:
       campus: http://nsc-mis.info.bit.edu.cn/
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421fee442d12a397b1e77068fa3d6572a217be837a1fb8336/
@@ -172,10 +173,12 @@
       campus: http://10.0.11.147
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc6961391e2f5cde/
   - title: 教务部-本科毕业设计（论文）管理
+    img_url: https://img.haobit.eu.org/portal/co2-cnki.webp
     url:
       campus: https://co2.cnki.net/Login.html?cas=1&dp=bit
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f3f813d2243e635930068cb8/Login.html?cas=1&dp=bit
   - title: 教务部-教学一体化
+    img_url: https://img.haobit.eu.org/portal/jwms.webp
     url:
       campus: http://jwms.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421fae04c8f69326144300d8db9d6562d/
@@ -188,10 +191,12 @@
       campus: http://zyqr.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421eaee508e69326144300d8db9d6562d/
   - title: 教务部-本科生国际交流项目报名
+    img_url: https://img.haobit.eu.org/portal/jwcexstu.webp
     url:
       campus: http://jwcexstu.info.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421fae042993f237c45300187aa971b213cca858c40c4b08ef0/
   - title: 教务部-学科竞赛
+    img_url: https://img.haobit.eu.org/portal/xkjs.webp
     url:
       campus: http://xkjs.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc4b8f69326144300d8db9d6562d/
@@ -248,12 +253,12 @@
       campus: http://dorm.info.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f4f853916939665671468ba58c1b263145fd6255/
   - title: 招生办-北理思源报名
-    img_url: https://img.haobit.top/portal/siyuan.webp
+    img_url: https://img.haobit.eu.org/portal/siyuan.webp
     url:
       campus: http://siyuan.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e3fe5889263e2652771cc7a99c406d36b8/
   - title: 本硕博一体化教学
-    img_url: https://img.haobit.top/portal/jxzxehall.webp
+    img_url: https://img.haobit.eu.org/portal/jxzxehall.webp
     url:
       campus: http://jxzxehall.bit.edu.cn/new/index.html
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421faef5b842238695c72468ba58c1b26316e8e7f6f/new/index.html
@@ -315,7 +320,7 @@
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc696726012d51/
 图书馆常用数据库:
   - title: 图书馆数据库列表
-    img_url: https://img.haobit.top/portal/lib-db.webp
+    img_url: https://img.haobit.eu.org/portal/lib-db.webp
     url:
       campus: https://lib.bit.edu.cn/db/
       external: https://webvpn.bit.edu.cnhttps://lib.bit.edu.cn/db/
@@ -381,12 +386,12 @@
       campus: https://www.webofscience.com/wos/alldb/basic-search
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e7e056d230356a5f781b8aa59d5b20301c1db852/wos/alldb/basic-search
   - title: 中国知网
-    img_url: https://img.haobit.top/portal/cnki.webp
+    img_url: https://img.haobit.eu.org/portal/cnki.webp
     url:
       campus: https://www.cnki.net/
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e7e056d2243e635930068cb8/
   - title: 万方数据
-    img_url: https://img.haobit.top/portal/wanfangdata.webp
+    img_url: https://img.haobit.eu.org/portal/wanfangdata.webp
     url:
       campus: http://g.wanfangdata.com.cn/
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f7b9569d2936695e790c88b8991b203a18454272/
@@ -432,7 +437,7 @@
       campus: http://10.0.7.8/bit
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc69672608/bit
   - title: ACM竞赛
-    img_url: https://img.haobit.top/portal/acm.webp
+    img_url: https://img.haobit.eu.org/portal/acm.webp
     url:
       campus: http://acm.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f1f44cd225397c1e7b0c9ce29b5b/
@@ -457,7 +462,7 @@
       campus: http://oamath.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421fff64c9d33382652771cc7a99c406d363a/
   - title: 数学与统计学院-数学实验中心
-    img_url: https://img.haobit.top/portal/mec.webp
+    img_url: https://img.haobit.eu.org/portal/mec.webp
     url:
       campus: http://mec.bit.edu.cn/
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421fdf242d225397c1e7b0c9ce29b5b/
