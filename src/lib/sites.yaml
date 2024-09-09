@@ -1,27 +1,3 @@
-测试:
-  - title: 选课（本科生）
-    img_url: https://img.haobit.top/portal/xk.webp
-    url:
-      human: xk/xs
-      campus: http://xk.bit.edu.cn/xsxkapp/sys/xsxkapp/*default/index.do
-      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc0f9e2e2426557a1dc7af96/xsxkapp/sys/xsxkapp/*default/index.do
-  - title: 选课（研究生）
-    description: 珠海另有站点
-    img_url: https://img.haobit.top/portal/xk.webp
-    url:
-      human: xk/yjs
-      campus: http://xk.bit.edu.cn/yjsxkapp/sys/xsxkappbit/index.html
-      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc0f9e2e2426557a1dc7af96/yjsxkapp/sys/xsxkappbit/index.html
-  - title: 选课（珠海研究生）
-    img_url: https://img.haobit.top/portal/xkzh.webp
-    url:
-      campus: http://xkzh.bit.edu.cn/yjsxkapp/sys/xsxkappbit/index.html
-      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc5b9469326144300d8db9d6562d/yjsxkapp/sys/xsxkappbit/index.html
-  - title: 软件正版化
-    img_url: https://img.haobit.top/portal/ca.webp
-    url:
-      campus: https://ca.bit.edu.cn
-      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f3f60f9e2e2426557a1dc7af96/
 部门主页:
   - title: 党政办公室
     url:
@@ -68,19 +44,26 @@
       campus: https://ttc.bit.edu.cn
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e4e342d225397c1e7b0c9ce29b5b/
 公共服务:
-  - title: 本科生选课
+  - title: 选课（本科生）
+    img_url: https://img.haobit.top/portal/xk.webp
     url:
+      human: xk/xs
       campus: http://xk.bit.edu.cn/xsxkapp/sys/xsxkapp/*default/index.do
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc0f9e2e2426557a1dc7af96/xsxkapp/sys/xsxkapp/*default/index.do
-  - title: 研究生选课
+  - title: 选课（研究生）
+    description: 珠海另有站点
+    img_url: https://img.haobit.top/portal/xk.webp
     url:
+      human: xk/yjs
       campus: http://xk.bit.edu.cn/yjsxkapp/sys/xsxkappbit/index.html
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc0f9e2e2426557a1dc7af96/yjsxkapp/sys/xsxkappbit/index.html
-  - title: 珠海校区-研究生选课
+  - title: 选课（珠海研究生）
+    img_url: https://img.haobit.top/portal/xkzh.webp
     url:
       campus: http://xkzh.bit.edu.cn/yjsxkapp/sys/xsxkappbit/index.html
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e8fc5b9469326144300d8db9d6562d/yjsxkapp/sys/xsxkappbit/index.html
   - title: 软件正版化
+    img_url: https://img.haobit.top/portal/ca.webp
     url:
       campus: https://ca.bit.edu.cn
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f3f60f9e2e2426557a1dc7af96/
@@ -141,11 +124,7 @@
     url:
       campus: https://pie.bit.edu.cn/
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e0fe44d225397c1e7b0c9ce29b5b/
-  - title: 组织部-班子调研测评
-    url:
-      campus: http://10.0.8.171:8080/rqkh
-      external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fcc696826012959/rqkh
-  - title: 组织部-干部试用期考核测评
+  - title: 组织部-班子调研、干部试用期考核测评
     url:
       campus: http://10.0.8.171:8080/rqkh
       external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fcc696826012959/rqkh
@@ -468,10 +447,6 @@
     url:
       campus: http://10.133.22.200:7102
       external: https://webvpn.bit.edu.cn/http-7102/77726476706e69737468656265737421a1a70fcd746326022c46dbfcc8/
-  - title: 生命学院
-    url:
-      campus: http://10.0.7.139
-      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc696726012d51/
   - title: 物理学院
     url:
       campus: http://10.1.0.219:8888
