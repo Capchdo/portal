@@ -1,38 +1,17 @@
-# create-svelte
+# BIT Portal
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+克隆并改进网瑞达 [WebVPN](https://webvpn.bit.edu.cn)。
 
-## Creating a project
+## 开发
 
-If you're seeing this, you've probably already done this step. Congrats!
+### 网站图片
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- 如果网站有众所周知的图标，采用图标；不然采用首页有特色部位的截图（例如带网站名称的醒目大图），但不能有实质性信息，例如随时会变的通知。
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- 分辨率至少 600×400，让人能一眼辨别。
 
-## Developing
+- 采用 WebP 格式，并尽可能降低分辨率，尽量减少性能负担。
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+  ```shell
+  magick {}.png -resize 600x400^ {}.webp
+  ```
