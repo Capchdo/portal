@@ -1,13 +1,24 @@
 <script lang="ts">
+  import { URL_Type, as_href, humanize_url } from '$lib/site';
   import sites from '$lib/sites.yaml';
 
-  function humanize_url(url: string): string {
-    return new URL(url).host.replace(/\.bit\.edu\.cn$/, '');
-  }
+  let url_type = URL_Type.campus;
 </script>
 
 <div class="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
   <h2 class="text-2xl font-bold tracking-tight text-gray-900">Portal</h2>
+
+  <fieldset>
+    <legend class="font-bold">URL 类型</legend>
+    <div class="bg-gray-100 grid grid-cols-3 gap-1 rounded-2xl">
+      {#each [[URL_Type.campus, '🏫校内'], [URL_Type.external, '👽WebVPN'], [URL_Type.library, '📚图书馆']] as [k, v]}
+        <label class="text-center has-[:checked]:bg-gray-300 hover:bg-gray-400 py-1 rounded-2xl">
+          <input type="radio" bind:group={url_type} value={k} class="appearance-none" />
+          {v}
+        </label>
+      {/each}
+    </div>
+  </fieldset>
 
   <!-- Modified from https://tailwindui.com/components/ecommerce/components/product-lists -->
   <ul class="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 lg:grid-cols-4 xl:gap-x-8">
@@ -27,7 +38,7 @@
         <div class="mt-4 flex justify-between">
           <div>
             <h3 class="text-sm text-gray-700 font-bold group-hover:text-bit-light-green">
-              <a href={url.campus} target="_blank">
+              <a href={as_href(url, url_type)} target="_blank">
                 <span aria-hidden="true" class="absolute inset-0"></span>
                 {title}
               </a>
@@ -37,7 +48,7 @@
             {/if}
           </div>
           <p class="text-sm font-medium text-gray-700 group-hover:text-bit-light-green">
-            {url.human || humanize_url(url.campus)}
+            {humanize_url(url)}
           </p>
         </div>
       </li>
