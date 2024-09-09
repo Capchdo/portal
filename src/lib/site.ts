@@ -6,7 +6,7 @@ export interface Site {
 }
 
 export interface SiteURL {
-  // 简短，人类已读
+  // 简短，人类易读
   human?: string
   // 校内
   campus: string

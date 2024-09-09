@@ -6,11 +6,22 @@
 
 ### 避免网站重复
 
+用 [yq](https://mikefarah.gitbook.io/yq) 可列出重复的校内 URL：
+
 ```shell
 yq '.[].[].url.campus' ./src/lib/sites.yaml | sort | uniq --all-repeated
 ```
 
-用 [yq](https://mikefarah.gitbook.io/yq) 可列出重复项目。
+用以下 [deno](https://deno.com/) 程序可检查重复的人类易读版 URL。
+
+```typescript
+import { parse } from "jsr:@std/yaml"
+import { humanize_url } from './src/lib/site.ts'
+
+const yaml = await Deno.readTextFile('./src/lib/sites.yaml')
+const urls = Object.entries(parse(yaml)).map(([name, group]) => group.map(s => humanize_url(s.url))).flat()
+urls.filter((u, i) => i !== urls.indexOf(u))
+```
 
 ### 网站图片
 

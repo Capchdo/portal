@@ -222,18 +222,22 @@
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e0ee598869326144300d8db9d6562d/
   - title: 研究生院-研究生学术成果填报
     url:
+      human: tbs/?app=183
       campus: https://tbs.bit.edu.cn/newservice/fe/taskCenter/matterApplication?app_id=183
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e4f552d225397c1e7b0c9ce29b5b/newservice/fe/taskCenter/matterApplication?app_id=183
   - title: 研究生院-研究生国家奖学金申请
     url:
+      human: tbs/?app=180
       campus: https://tbs.bit.edu.cn/newservice/fe/taskCenter/matterApplication?app_id=180
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e4f552d225397c1e7b0c9ce29b5b/newservice/fe/taskCenter/matterApplication?app_id=180
   - title: 研究生院-研究生学业奖学金申请
     url:
+      human: tbs/?app=181
       campus: https://tbs.bit.edu.cn/newservice/fe/taskCenter/matterApplication?app_id=181
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e4f552d225397c1e7b0c9ce29b5b/newservice/fe/taskCenter/matterApplication?app_id=181
   - title: 研究生院-奖学金管理
     url:
+      human: tbs/micro
       campus: https://tbs.bit.edu.cn/newservice/fe/microsystems/home
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e4f552d225397c1e7b0c9ce29b5b/newservice/fe/microsystems/home
   - title: 学工部-校内办公
@@ -280,6 +284,7 @@
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcd746126012e5ac7fdc805/cas
   - title: 资实处-固定资产管理
     url:
+      human: 10.0.8.170:8080/netcx
       campus: http://10.0.8.170:8080/netcx/loginUser.do
       external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fcc696826012958/netcx/loginUser.do
   - title: 资实处-实验室监控
@@ -292,14 +297,17 @@
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fc969623801305cd8/WebTrain/
   - title: 资实处-实验室管理
     url:
+      human: 10.5.201.61:8080/jx
       campus: http://10.5.201.61:8080/jxframe
       external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fc969623801305ed8/jxframe
   - title: 资实处-公房管理
     url:
+      human: 10.0.8.170:8080/estate
       campus: http://10.0.8.170:8080/estate/loginUser.do
       external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fcc696826012958/estate/loginUser.do
   - title: 资实处-公房成本核算
     url:
+      human: 10.5.201.61:8080/hs
       campus: http://10.5.201.61:8080/hsframe
       external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fc969623801305ed8/hsframe
   - title: 资实处-设备开放共享
@@ -322,6 +330,7 @@
   - title: 图书馆数据库列表
     img_url: https://img.haobit.eu.org/portal/lib-db.webp
     url:
+      human: lib/db
       campus: https://lib.bit.edu.cn/db/
       external: https://lib.bit.edu.cn/db/
   - title: ACS
@@ -341,15 +350,11 @@
     url:
       campus: http://search.epnet.com/
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e3f2408e243826556e068cb8d6562c38/
-  - title: Ei
-    url:
-      campus: http://www.engineeringvillage.com/
-      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e7e056d2223e6f59700d8cbe915b24239d8e8349f501643293dc/
   - title: IEL
     url:
       campus: https://ieeexplore.ieee.org/
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f9f244993f20645f6c0dc7a59d50267b1ab4a9/
-  - title: INSPEC
+  - title: Ei/INSPEC
     url:
       campus: https://www.engineeringvillage.com/
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e7e056d2223e6f59700d8cbe915b24239d8e8349f501643293dc/
@@ -371,6 +376,7 @@
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e3f4489929336d1e6d0b80a99656263895097d1bb221/
   - title: SDOL
     url:
+      human: lib/db?236
       campus: https://lib.bit.edu.cn/db/detail?id=236
       external: https://lib.bit.edu.cn/db/detail?id=236
   - title: Springer Link
