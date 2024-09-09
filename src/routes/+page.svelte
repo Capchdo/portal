@@ -59,21 +59,21 @@
               />
             {/if}
           </div>
-          <div class="mt-4 flex justify-between">
-            <div>
+          <div class="mt-4">
+            <div class="flex flex-wrap justify-between">
               <h3 class="text-sm font-bold text-gray-700 group-hover:text-bit-light-green">
                 <a href={as_href(url, url_type)} target="_blank">
                   <span aria-hidden="true" class="absolute inset-0"></span>
                   {title}
                 </a>
               </h3>
-              {#if description}
-                <p class="mt-1 text-sm text-gray-500">{description}</p>
-              {/if}
+              <p class="text-sm font-medium text-gray-700 group-hover:text-bit-light-green">
+                {humanize_url(url)}
+              </p>
             </div>
-            <p class="text-sm font-medium text-gray-700 group-hover:text-bit-light-green">
-              {humanize_url(url)}
-            </p>
+            {#if description}
+              <p class="mt-1 text-sm text-gray-500">{description}</p>
+            {/if}
           </div>
         </li>
       {/each}
