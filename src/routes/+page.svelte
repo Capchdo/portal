@@ -1,8 +1,7 @@
 <script lang="ts">
   import { URL_Type, as_href, humanize_url } from '$lib/site'
   import sites from '$lib/sites.yaml'
-
-  let url_type = URL_Type.campus
+  import { url_type } from '../stores'
 </script>
 
 <div class="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
@@ -33,7 +32,7 @@
     <div class="grid grid-cols-3 gap-1 rounded-2xl bg-gray-100">
       {#each [[URL_Type.campus, '🏫校内'], [URL_Type.external, '👽WebVPN'], [URL_Type.library, '📚图书馆']] as [k, v]}
         <label class="rounded-2xl py-1 text-center hover:bg-gray-400 has-[:checked]:bg-gray-300">
-          <input type="radio" bind:group={url_type} value={k} class="w-0 appearance-none" />
+          <input type="radio" bind:group={$url_type} value={k} class="w-0 appearance-none" />
           {v}
         </label>
       {/each}
@@ -62,7 +61,7 @@
           <div class="mt-4">
             <div class="flex flex-wrap justify-between gap-x-2">
               <h3 class="text-sm font-bold text-gray-700 group-hover:text-bit-light-green">
-                <a href={as_href(url, url_type)} target="_blank">
+                <a href={as_href(url, $url_type)} target="_blank">
                   <span aria-hidden="true" class="absolute inset-0"></span>
                   {title}
                 </a>
