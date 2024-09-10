@@ -1,10 +1,40 @@
+<script lang="ts" context="module">
+  import { get_storage } from '$lib/util'
+
+  // 加载最近访问情况
+  // Map<campus_url, count>
+  const stored_history: [string, number][] = JSON.parse(get_storage('history') ?? '[]')
+  // Sort by count in descending order
+  stored_history.sort((a, b) => b[1] - a[1])
+
+  // 10 most visited sites
+  const recent_sites = stored_history
+    .map(([campus_url, _count]) =>
+      Object.entries(sites)
+        .map(([_name, group]) => group)
+        .flat()
+        .find((s) => s.url.campus == campus_url),
+    )
+    .filter((s) => s !== undefined)
+    .slice(0, 10)
+</script>
+
 <script lang="ts">
-  import { URL_Type, as_href, humanize_url } from '$lib/site'
+  import { URL_Type } from '$lib/site'
   import sites from '$lib/sites.yaml'
-  import { parse_number, get_storage, set_storage } from '$lib/util'
+  import { parse_number, set_storage } from '$lib/util'
+  import Site from './site.svelte'
 
   let url_type = parse_number(get_storage('url-type')) ?? URL_Type.campus
   $: set_storage('url-type', String(url_type))
+
+  const history = new Map<string, number>(stored_history)
+
+  function update_history(event: CustomEvent<{ campus_url: string }>) {
+    const { campus_url } = event.detail
+    history.set(campus_url, (history.get(campus_url) ?? 0) + 1)
+    set_storage('history', JSON.stringify(Array.from(history.entries())))
+  }
 </script>
 
 <div class="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
@@ -42,42 +72,25 @@
     </div>
   </fieldset>
 
+  {#if recent_sites.length > 0}
+    <h2 class="mt-4 text-2xl font-bold text-gray-900">最近访问</h2>
+    <ul
+      class="mt-6 grid grid-cols-[repeat(auto-fill,minmax(8em,1fr))] gap-x-6 gap-y-10 lg:grid-cols-[repeat(auto-fill,minmax(12em,1fr))]"
+    >
+      {#each recent_sites as site}
+        <Site {url_type} {site} on:redirect={update_history} />
+      {/each}
+    </ul>
+  {/if}
+
   {#each Object.entries(sites) as [name, group]}
     <h2 class="mt-4 text-2xl font-bold text-gray-900">{name}</h2>
     <!-- Modified from https://tailwindui.com/components/ecommerce/components/product-lists -->
     <ul
       class="mt-6 grid grid-cols-[repeat(auto-fill,minmax(8em,1fr))] gap-x-6 gap-y-10 lg:grid-cols-[repeat(auto-fill,minmax(12em,1fr))]"
     >
-      {#each group as { title, img_url, url, description }}
-        <li class="group relative">
-          <div
-            class="aspect-h-2 aspect-w-3 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-40"
-          >
-            {#if img_url}
-              <img
-                src={img_url}
-                alt=""
-                class="h-full w-full object-cover object-top lg:h-full lg:w-full"
-              />
-            {/if}
-          </div>
-          <div class="mt-4">
-            <div class="flex flex-wrap justify-between gap-x-2">
-              <h3 class="text-sm font-bold text-gray-700 group-hover:text-bit-light-green">
-                <a href={as_href(url, url_type)} target="_blank">
-                  <span aria-hidden="true" class="absolute inset-0"></span>
-                  {title}
-                </a>
-              </h3>
-              <p class="text-sm font-medium text-gray-700 group-hover:text-bit-light-green">
-                {humanize_url(url)}
-              </p>
-            </div>
-            {#if description}
-              <p class="mt-1 text-sm text-gray-500">{description}</p>
-            {/if}
-          </div>
-        </li>
+      {#each group as site}
+        <Site {url_type} {site} on:redirect={update_history} />
       {/each}
     </ul>
   {/each}
