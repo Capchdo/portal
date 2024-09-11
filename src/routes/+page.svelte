@@ -89,7 +89,7 @@
     <ul
       class="mt-6 grid grid-cols-[repeat(auto-fill,minmax(8em,1fr))] gap-x-6 gap-y-10 lg:grid-cols-[repeat(auto-fill,minmax(12em,1fr))]"
     >
-      {#each group as site}
+      {#each group as site (site.url.campus)}
         <Site {url_type} {site} on:redirect={update_history} />
       {/each}
     </ul>
