@@ -2,6 +2,9 @@
 
 克隆并改进网瑞达 [WebVPN](https://webvpn.bit.edu.cn)。
 
+[![check](https://github.com/Capchdo/portal/actions/workflows/check.yml/badge.svg)](https://github.com/Capchdo/portal/actions/workflows/check.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/96c00cb3-7036-44c3-aa15-f3b017079635/deploy-status)](https://app.netlify.com/sites/bit-portal/deploys)
+
 ## 开发
 
 ### 避免网站重复
