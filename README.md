@@ -19,9 +19,8 @@ import { parse } from 'jsr:@std/yaml'
 import { humanize_url } from './src/lib/site.ts'
 
 const yaml = await Deno.readTextFile('./src/lib/sites.yaml')
-const urls = Object.entries(parse(yaml))
-  .map(([name, group]) => group.map((s) => humanize_url(s.url)))
-  .flat()
+const sites = Object.entries(parse(yaml)).flatMap(([name, group]) => group)
+const urls = sites.map((s) => humanize_url(s.url))
 urls.filter((u, i) => i !== urls.indexOf(u))
 ```
 
@@ -33,6 +32,28 @@ urls.filter((u, i) => i !== urls.indexOf(u))
 
 - 采用 WebP 格式，并尽可能降低分辨率，尽量减少性能负担。
 
-  ```shell
-  magick {}.png -resize 600x400^ {}.webp
+  ```powershell
+  Get-ChildItem *.* | % { magick $_.Name -resize 600x400^ "$($_.BaseName).webp" }
   ```
+
+### 确保图片存在
+
+用以下 deno 程序可列出缺失的图片文件。
+
+```typescript
+import { parse } from 'jsr:@std/yaml'
+import { existsSync } from 'jsr:@std/fs'
+import { assert } from 'jsr:@std/assert'
+
+const yaml = await Deno.readTextFile('./src/lib/sites.yaml')
+const sites = Object.entries(parse(yaml)).flatMap(([name, group]) => group)
+const files = sites
+  .map((s) => s.img_url)
+  .filter((u) => u)
+  .map((u) => {
+    const base = 'https://img.haobit.eu.org/portal/'
+    assert(u.startsWith(base), `Fail to recognize “${u}”`)
+    return u.slice(base.length)
+  })
+files.filter((f) => !existsSync('./portal-img/' + f))
+```

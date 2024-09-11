@@ -79,18 +79,22 @@
       campus: https://ca.bit.edu.cn
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f3f60f9e2e2426557a1dc7af96/
   - title: 校园进出管控
+    img_url: https://img.haobit.eu.org/portal/access-control.webp
     url:
       campus: http://202.204.81.40:8012/register/
       external: https://webvpn.bit.edu.cn/http-8012/77726476706e69737468656265737421a2a713d275603c1e2659c7f8c8/register/
   - title: 物理实验中心-选排课
+    img_url: https://img.haobit.eu.org/portal/phys-exp.webp
     url:
       campus: http://10.133.22.200:7100
       external: https://webvpn.bit.edu.cn/http-7100/77726476706e69737468656265737421a1a70fcd746326022c46dbfcc8/
   - title: 图书馆-书目检索
+    img_url: https://img.haobit.eu.org/portal/libsearch.webp
     url:
       campus: https://libsearch.bit.edu.cn
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fcfe438f22317a5376468ba58c1b26315c8872e0/
   - title: 计算机实验教学中心考试
+    img_url: https://img.haobit.eu.org/portal/cs-moodle.webp
     url:
       campus: http://10.0.6.36
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc6966260328/
@@ -104,10 +108,12 @@
       campus: http://nsc-mis.info.bit.edu.cn/
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421fee442d12a397b1e77068fa3d6572a217be837a1fb8336/
   - title: 研究生院会议室预定
+    img_url: https://img.haobit.eu.org/portal/grd-room.webp
     url:
       campus: http://10.0.6.207:8138
       external: https://webvpn.bit.edu.cn/http-8138/77726476706e69737468656265737421a1a70fcc696626022e5f/
   - title: 教工公寓申请
+    img_url: https://img.haobit.eu.org/portal/staff-dorm.webp
     url:
       campus: http://10.0.9.54:3000/typeChoose
       external: https://webvpn.bit.edu.cn/http-3000/77726476706e69737468656265737421a1a70fcc696926052a/typeChoose
@@ -116,15 +122,19 @@
       campus: https://kpi.bit.edu.cn
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fbe748d225397c1e7b0c9ce29b5b/
   - title: 接诉即办
+    img_url: https://img.haobit.eu.org/portal/complain.webp
     url:
       campus: http://10.0.8.81
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc696826082f/
 业务系统:
   - title: 计划财务部-财务综合信息门户
+    img_url: https://img.haobit.eu.org/portal/fad.webp
+    description: 可查自己的酬金和银行卡号
     url:
       campus: https://fad.bit.edu.cn/WFManager/home2.jsp
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f6f645d225397c1e7b0c9ce29b5b/WFManager/home2.jsp
   - title: 通元内容管理
+    img_url: https://img.haobit.eu.org/portal/cms.webp
     url:
       campus: http://cms.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f3fa52d225397c1e7b0c9ce29b5b/
@@ -133,6 +143,7 @@
       campus: http://bi.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f2fe0f9e2e2426557a1dc7af96/
   - title: 本研一体化教育教学管理
+    img_url: https://img.haobit.eu.org/portal/pie.webp
     url:
       campus: https://pie.bit.edu.cn/
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421e0fe44d225397c1e7b0c9ce29b5b/
@@ -161,14 +172,17 @@
       campus: https://kyxt.bit.edu.cn
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fbee598869326144300d8db9d6562d/
   - title: 科研院-专用项目科研管理
+    img_url: https://img.haobit.eu.org/portal/e-plugger.webp
     url:
       campus: http://10.0.11.183
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc6961391e2f50da/
   - title: 图书馆-学位论文管理
+    img_url: https://img.haobit.eu.org/portal/lib-thesis.webp
     url:
       campus: http://10.0.7.53:88/urmp/xwlwindex/index/indexsearch.do
       external: https://webvpn.bit.edu.cn/http-88/77726476706e69737468656265737421a1a70fcc696726052d/urmp/xwlwindex/index/indexsearch.do
   - title: 教务部-智慧教育
+    img_url: https://img.haobit.eu.org/portal/intel-edu.webp
     url:
       campus: http://10.0.11.147
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc6961391e2f5cde/
@@ -271,10 +285,12 @@
       campus: http://hdsp.info.bit.edu.cn/
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f8f3528c6939665671468ba58c1b263129bdf895/
   - title: 教师论文认领
+    img_url: https://img.haobit.eu.org/portal/openir.webp
     url:
       campus: https://openir.bit.edu.cn/cgrl/searchList
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421ffe744922e222652771cc7a99c406d3639/cgrl/searchList
   - title: 教考中心-电子化阅卷
+    img_url: https://img.haobit.eu.org/portal/nsfocus.webp
     url:
       campus: https://10.3.0.224:2443
       external: https://webvpn.bit.edu.cn/https-2443/77726476706e69737468656265737421a1a70fcf696026022c5c/
@@ -366,7 +382,8 @@
     url:
       campus: http://www.nature.com/
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e7e056d229317c456c0dc7af9758/
-  - title: PQDD全文库
+  - title: PQDT全文库
+    img_url: https://img.haobit.eu.org/portal/proquest.webp
     url:
       campus: http://www.pqdtcn.com/
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e7e056d237216c447d06c7af9758/
@@ -406,6 +423,7 @@
       campus: http://www.fenqubiao.com
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e7e056d2213566416b0a80ad971b203add/
   - title: 德语语言学和文学研究参考书目数据库
+    img_url: https://img.haobit.eu.org/portal/bdsl-onlined-de.webp
     url:
       campus: http://www.bdsl-online.de
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e7e056d225347b5c330787a0915b267bdad3/
@@ -414,9 +432,10 @@
       campus: http://www.duxiu.com
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421e7e056d2232570596b468aa395/
   - title: 中国共产党思想理论资源数据库
+    img_url: https://img.haobit.eu.org/portal/data-lilun.webp
     url:
-      campus: http://data.lilun.cn
-      external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f4f6559d693c615c6b06c7af96/
+      campus: https://data.lilun.cn
+      external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f4f6559d693c615c6b06c7af96/
   - title: NoteExpress文献管理软件
     url:
       campus: http://www.inoteexpress.com/support/cgi-bin/download_sch.cgi?code=BeiJingLiGong
@@ -431,6 +450,7 @@
       campus: http://10.0.8.171:9080
       external: https://webvpn.bit.edu.cn/http-9080/77726476706e69737468656265737421a1a70fcc696826012959/
   - title: 人力资源部
+    img_url: https://img.haobit.eu.org/portal/rlzyb.webp
     url:
       campus: http://10.108.5.39:5000
       external: https://webvpn.bit.edu.cn/http-5000/77726476706e69737468656265737421a1a70fcd77682605305bd0/
@@ -439,6 +459,7 @@
       campus: http://10.0.9.43
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc696926042d/
   - title: 信息与电子学院-实验室信息化
+    img_url: https://img.haobit.eu.org/portal/sie-exp.webp
     url:
       campus: http://10.0.7.8/bit
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc69672608/bit
@@ -456,14 +477,17 @@
       campus: http://10.0.8.233:8080
       external: https://webvpn.bit.edu.cn/http-8080/77726476706e69737468656265737421a1a70fcc696826022d5b/
   - title: 学报-测试
+    img_url: https://img.haobit.eu.org/portal/journal.webp
     url:
       campus: http://10.0.7.77:80
       external: https://webvpn.bit.edu.cn/http-80/77726476706e69737468656265737421a1a70fcc6967260729/
   - title: 大学生创新创业训练计划管理
+    img_url: https://img.haobit.eu.org/portal/cxcy.webp
     url:
       campus: http://cxcy.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421f3ef428569326144300d8db9d6562d/
   - title: 数学与统计学院-OA办公
+    img_url: https://img.haobit.eu.org/portal/oamath.webp
     url:
       campus: http://oamath.bit.edu.cn
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421fff64c9d33382652771cc7a99c406d363a/
@@ -485,6 +509,7 @@
       campus: http://10.0.11.101
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcc6961391e2f58d8/
   - title: 资实处-实验室信息统计
+    img_url: https://img.haobit.eu.org/portal/lab-info.webp
     url:
       campus: http://10.5.0.23
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fc9696026022d/
@@ -493,6 +518,7 @@
       campus: https://10.0.7.113
       external: https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421a1a70fcc696726012f5b/
   - title: 集成电路-电工电子实验
+    img_url: https://img.haobit.eu.org/portal/ice-exp.webp
     url:
       campus: http://10.178.27.8
       external: https://webvpn.bit.edu.cn/http/77726476706e69737468656265737421a1a70fcd706826022946d1/
