@@ -35,5 +35,8 @@
     "typescript-eslint": "^8.0.0",
     "vite": "^5.0.3"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@ydx/bit-on-campus": "npm:@jsr/ydx__bit-on-campus@^0.1.1"
+  }
 }

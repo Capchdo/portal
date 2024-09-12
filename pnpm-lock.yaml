@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@ydx/bit-on-campus':
+        specifier: npm:@jsr/ydx__bit-on-campus@^0.1.1
+        version: '@jsr/ydx__bit-on-campus@0.1.1'
     devDependencies:
       '@rollup/plugin-yaml':
         specifier: ^4.1.2
@@ -282,6 +286,12 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@jsr/es-toolkit__es-toolkit@1.18.0':
+    resolution: {integrity: sha512-ahQ+B5nz8JjCW5sYAr9xSP0WF3BqPG7y84ii+2iSqnF1Vu8q/XDE+nKjPH24gCRTnFQEBgXhIjDkEA37Hpd92Q==, tarball: https://npm.jsr.io/~/11/@jsr/es-toolkit__es-toolkit/1.18.0.tgz}
+
+  '@jsr/ydx__bit-on-campus@0.1.1':
+    resolution: {integrity: sha512-9MlrbMn3gFRFSwWoArTCzFMPmhbZDlfvE5nWrvh8LV67i/zq1SxRnkUa0mnYqCpNzIjiEGhrK2RzphSIXVYFrg==, tarball: https://npm.jsr.io/~/11/@jsr/ydx__bit-on-campus/0.1.1.tgz}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1656,6 +1666,12 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  '@jsr/es-toolkit__es-toolkit@1.18.0': {}
+
+  '@jsr/ydx__bit-on-campus@0.1.1':
+    dependencies:
+      '@jsr/es-toolkit__es-toolkit': 1.18.0
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
