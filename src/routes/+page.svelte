@@ -34,7 +34,7 @@
   // 不过library校内外都能用，现场检测不提供信息，故不再覆盖
   if (url_type !== URL_Type.library) {
     onMount(async () => {
-      url_type = (await on_campus()) ? URL_Type.campus : URL_Type.external
+      url_type = (await on_campus(1000)) ? URL_Type.campus : URL_Type.external
     })
   }
 
