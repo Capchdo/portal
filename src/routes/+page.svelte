@@ -20,13 +20,23 @@
 </script>
 
 <script lang="ts">
+  import { onMount } from 'svelte'
+  import { on_campus } from '@ydx/bit-on-campus'
   import { URL_Type } from '$lib/site'
   import sites from '$lib/sites.yaml'
   import { parse_number, set_storage } from '$lib/util'
   import Site from './site.svelte'
 
+  // 初始URL类型有上次记录、现场检测两种确定方法，前者更快，后者更准
+  // 因此先用前者，等后者确定后再用它覆盖
   let url_type = parse_number(get_storage('url-type')) ?? URL_Type.campus
   $: set_storage('url-type', String(url_type))
+  // 不过library校内外都能用，现场检测不提供信息，故不再覆盖
+  if (url_type !== URL_Type.library) {
+    onMount(async () => {
+      url_type = (await on_campus(1000)) ? URL_Type.campus : URL_Type.external
+    })
+  }
 
   const history = new Map<string, number>(stored_history)
 
